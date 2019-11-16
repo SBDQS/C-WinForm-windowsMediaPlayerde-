@@ -1,0 +1,4 @@
+Taylor Swift - Love Story.flac,C:\Users\逝不等琴生\Source\Repos\MyMusicPlayer\MyMusicPlayer\bin\Debug\songs\Taylor Swift - Love Story.flac,29709010
+Taylor Swift - Red.flac,C:\Users\逝不等琴生\Source\Repos\MyMusicPlayer\MyMusicPlayer\bin\Debug\songs\Taylor Swift - Red.flac,27335636
+买辣椒也用券 - 起风了 [mqms2].mp3,C:\Users\逝不等琴生\Source\Repos\MyMusicPlayer\MyMusicPlayer\bin\Debug\songs\买辣椒也用券 - 起风了 [mqms2].mp3,12944433
+陈一发儿-童话镇.mp3,C:\Users\逝不等琴生\Source\Repos\MyMusicPlayer\MyMusicPlayer\bin\Debug\songs\陈一发儿-童话镇.mp3,4128865

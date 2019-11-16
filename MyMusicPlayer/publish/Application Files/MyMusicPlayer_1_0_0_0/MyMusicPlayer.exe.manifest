@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MyMusicPlayer.exe" version="1.0.0.0" publicKeyToken="c0fce3bfb17e1b5c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MyMusicPlayer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MyMusicPlayer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+         若想要更改 Windows 用户帐户控制级别，请
+         将 requestedExecutionLevel 节点替换为下述某项。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        若想要使用文件和注册表虚拟化以实现向后
+        兼容，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>w0aHnncJ7FJQTRV9Rg2krhMk8oQWzN+H1h6zryNsXbY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pDhLD4sEZGLh4zRI4ftS8cjUpBPMKEvvYnoxbKGRES8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyMusicPlayer.exe" size="4612568">
+      <assemblyIdentity name="MyMusicPlayer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WbfIN9+4Cuxu0+jc3p/G6QViIA1xwHWHf1LQQu1NbyM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MyMusicPlayer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\播放.png" size="6642">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nSPW0hJ0nhDlmd/t1xuG4hu0VnMzWBF+GacfD18C7cE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\单曲循环.png" size="5726">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o9rnfF+eKVjkToGjsWsjPINDLz5oFxCbtjfeRGatNkU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\上一首.png" size="3560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bJJNg8UyccQPTthGhML3vBd4baZZr0ta4X3u5F74pyc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\随机播放.png" size="4024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vINNFPQur4UMFDRA7tWBYGUG13brQ2VZ2p2N579SS+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\下一首.png" size="3640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xBDW2ZTKKNzbvY/MoY1z5E2B3haL8zGDdveTiody3ME=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\循环播放.png" size="5549">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MMKC9IlUT2sUtSgAMXWJereIqDHTPC7BJDg/4pMiWOk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\暂停.png" size="3697">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IY5LkO6DQzOS7yR19w0ZamtVsS8B9zkXd/A0lEdlQUs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-S72UVT2\niko" issuerKeyHash="cf44e8cb30fdcc6182c20fe90455d5b361be5da9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bsjo9YaT6pHS4hXRxGRDQpEWzTGAgxNbbZInsRsuKLk=</DigestValue></Reference></SignedInfo><SignatureValue>NZq3Phdm6rpM6UFwn/9fCho9hSakMI4shHTe5xObFRmOWQ5A68PAXV8881JF5G7HtIA0tkV5DJc6GTNBd/4n5Sw+xjm747Tcu7VVbJpURhpCz8ES24QcE0oWONDz1HoVdnwt/tBfvQsyyy48otOq08EtIBIW06JYF+8GV3dS4yA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0Ugmq8cSL+HaXLnLaewK+H71KWBsXhfuDhDAiOCoSSSq8VQOjNmRm44aaET5UoNwC/z7QCfHwZcYNNvnMdG2z1W/6MtgooktvIy8db5ZYMGStO021ogFqB3Jfz/WtKX5YKFwJ+pkv58a0v/JRYUmrKlhITCEFGPwY2ZCjEN4eTU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b9282e1bb127926d5b13838031cd1691424364c4d115e2d291ea9386f5e8c86e" Description="" Url=""><as:assemblyIdentity name="MyMusicPlayer.exe" version="1.0.0.0" publicKeyToken="c0fce3bfb17e1b5c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-S72UVT2\niko</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uQSCmyE5SVlDTyQYwaVSR032PbHvOpiAA7BDkYjuNDA=</DigestValue></Reference></SignedInfo><SignatureValue>cDvYc1+hkfY6fj6uJImxlJiy2x6TAgxLMUqHSZjR1Ra0TW8KQkL+X8k6GRYTsvsc21L2iCHTq+f0kVGBRyzdFoyaZp7EpYbNy5JOZ7tlNi4UVHqh618Y7tK6OR3E8m2Y6ZnLHFBb1YTwpMIDD+4SDXvdBmjA3YKJ/+j9QqLHWHI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0Ugmq8cSL+HaXLnLaewK+H71KWBsXhfuDhDAiOCoSSSq8VQOjNmRm44aaET5UoNwC/z7QCfHwZcYNNvnMdG2z1W/6MtgooktvIy8db5ZYMGStO021ogFqB3Jfz/WtKX5YKFwJ+pkv58a0v/JRYUmrKlhITCEFGPwY2ZCjEN4eTU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQFyRRjgidDoFBzWTfFpyDVTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAFMANwAyAFUAVgBUADIAXABuAGkAawBvMB4XDTE5MTExNjExNDQ0OFoXDTIwMTExNTE3NDQ0OFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBTADcAMgBVAFYAVAAyAFwAbgBpAGsAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0Ugmq8cSL+HaXLnLaewK+H71KWBsXhfuDhDAiOCoSSSq8VQOjNmRm44aaET5UoNwC/z7QCfHwZcYNNvnMdG2z1W/6MtgooktvIy8db5ZYMGStO021ogFqB3Jfz/WtKX5YKFwJ+pkv58a0v/JRYUmrKlhITCEFGPwY2ZCjEN4eTUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBAQy0DbtZ6piIHv0WaAxRcBEYQOwiLVd74iAoeWWUlpKCiTgE8cOA+aa1S7B6XUS5/bBJX4JnxD2KpH64WA0NA9ZihMIGShLu838MCy20tCs9P/OZOvEfh98mWmm6gyv0w3t+DlLwx8vW3OH9R+rZNjO83IF/2RKH7MvhlWNgbJQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
